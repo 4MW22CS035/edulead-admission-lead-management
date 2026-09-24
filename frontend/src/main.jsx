@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import './styles.css';
 
-const API='http://localhost:5000/api';
+const API = 'https://edulead-admission-lead-management.onrender.com';
 const SOURCES=['Website','Walk-in','Phone','WhatsApp','Fair','Campaign','Other'];
 const STATUSES=['New','Contacted','Follow-up','Qualified','Converted','Lost'];
 const PRIORITIES=['Low','Medium','High'];
