@@ -1,0 +1,18 @@
+Subject: Pre-Drive Product Engineering Assignment – Assignment 5 – Avinash
+
+Dear Technical/Product Team,
+
+Please find attached my submission for Assignment 5 – Admission Lead Management for the Pre-Drive Product Engineering assessment.
+
+The submission includes:
+- Working solution/prototype
+- Source code
+- Approach note with assumptions, architecture, trade-offs and edge cases
+- Mandatory AI Usage Report
+
+I have focused on lead lifecycle management, counsellor assignment, follow-ups, ageing, source/status insights and manager visibility.
+
+Thank you for considering my submission.
+
+Regards,
+Avinash

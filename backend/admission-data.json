@@ -1,0 +1,149 @@
+{
+  "nextUserId": 3,
+  "nextLeadId": 7,
+  "nextFollowupId": 6,
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo Manager",
+      "email": "manager@demo.com",
+      "password_hash": "$2a$10$hm2slY7y9YKdfCKxAdX03.olr5S7LKn/dPN1gdwr7d44sJX1EBK06",
+      "role": "manager"
+    },
+    {
+      "id": 2,
+      "name": "Demo Counsellor",
+      "email": "counsellor@demo.com",
+      "password_hash": "$2a$10$hm2slY7y9YKdfCKxAdX03.olr5S7LKn/dPN1gdwr7d44sJX1EBK06",
+      "role": "counsellor"
+    }
+  ],
+  "leads": [
+    {
+      "id": 1,
+      "name": "Rahul Shetty",
+      "phone": "9876543210",
+      "email": "rahul@example.com",
+      "course": "BCA",
+      "source": "Website",
+      "status": "Follow-up",
+      "priority": "High",
+      "counsellor_id": 2,
+      "notes": "Interested in scholarship.",
+      "created_at": "2026-09-22T09:59:01.104Z",
+      "updated_at": "2026-09-24T10:09:50.107Z"
+    },
+    {
+      "id": 2,
+      "name": "Priya Nair",
+      "phone": "9876543211",
+      "email": "priya@example.com",
+      "course": "B.Tech CSE",
+      "source": "Walk-in",
+      "status": "Follow-up",
+      "priority": "Medium",
+      "counsellor_id": 2,
+      "notes": "Requested campus visit.",
+      "created_at": "2026-09-16T09:59:01.104Z",
+      "updated_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 3,
+      "name": "Arjun Rao",
+      "phone": "9876543212",
+      "email": "arjun@example.com",
+      "course": "MBA",
+      "source": "WhatsApp",
+      "status": "Qualified",
+      "priority": "High",
+      "counsellor_id": 2,
+      "notes": "Parent follow-up pending.",
+      "created_at": "2026-09-10T09:59:01.104Z",
+      "updated_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Kumar",
+      "phone": "9876543213",
+      "email": "sneha@example.com",
+      "course": "MCA",
+      "source": "Campaign",
+      "status": "Converted",
+      "priority": "Low",
+      "counsellor_id": 1,
+      "notes": "Admission completed.",
+      "created_at": "2026-08-30T09:59:01.104Z",
+      "updated_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 5,
+      "name": "Vikram Das",
+      "phone": "9876543214",
+      "email": "vikram@example.com",
+      "course": "BBA",
+      "source": "Fair",
+      "status": "Lost",
+      "priority": "Medium",
+      "counsellor_id": 1,
+      "notes": "Selected another institution.",
+      "created_at": "2026-08-25T09:59:01.104Z",
+      "updated_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 6,
+      "name": "Avinash",
+      "phone": "8105624252",
+      "email": "abi8099@gmail.com",
+      "course": "BE",
+      "source": "Website",
+      "status": "New",
+      "priority": "Medium",
+      "counsellor_id": null,
+      "notes": "",
+      "created_at": "2026-09-24T10:08:39.718Z",
+      "updated_at": "2026-09-24T10:09:09.591Z"
+    }
+  ],
+  "followups": [
+    {
+      "id": 1,
+      "lead_id": 2,
+      "due_date": "2026-09-24",
+      "note": "Confirm campus visit timing.",
+      "outcome": "",
+      "created_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 2,
+      "lead_id": 3,
+      "due_date": "2026-09-23",
+      "note": "Call parent about scholarship.",
+      "outcome": "",
+      "created_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 3,
+      "lead_id": 1,
+      "due_date": "2026-09-25",
+      "note": "Share scholarship details.",
+      "outcome": "",
+      "created_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 4,
+      "lead_id": 4,
+      "due_date": "2026-09-19",
+      "note": "Admission completed check.",
+      "outcome": "Completed",
+      "created_at": "2026-09-24T09:59:01.103Z"
+    },
+    {
+      "id": 5,
+      "lead_id": 1,
+      "due_date": "2026-09-24",
+      "note": "ur son is good",
+      "outcome": "",
+      "created_at": "2026-09-24T10:09:50.107Z"
+    }
+  ]
+}
